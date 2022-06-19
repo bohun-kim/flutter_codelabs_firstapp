@@ -53,8 +53,8 @@ class _RandomWordsState extends State<RandomWords> {
 
         final index = i ~/ 2;
 
-        // print(_suggestions.runtimeType);
-        // print(_saved.runtimeType);
+        print(_suggestions.runtimeType);
+        print(_saved.runtimeType);
 
         if (index >= _suggestions.length) {
           _suggestions.addAll(generateWordPairs().take(10));
